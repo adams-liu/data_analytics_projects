@@ -19,6 +19,7 @@ def getLogin():
         password = data['password']
         return username, password
     
+
 if __name__ == "__main__":
     # specifies the path to the chromedriver.exe
     driver = webdriver.Chrome('C:/Users/adams/Desktop/chromedriver.exe')
@@ -37,11 +38,8 @@ if __name__ == "__main__":
 
     driver.execute_script("document.getElementsByClassName('btn__primary--large')[0].click();")
             
-    time.sleep(2)
+    time.sleep(1)
     driver.execute_script("document.getElementById('ember26').click();")
-
-    # jobs_btn = driver.find_element_by_id('ember26')
-    # jobs_btn.click()  
 
     time.sleep(2)
 
@@ -51,29 +49,49 @@ if __name__ == "__main__":
     paths[2].clear()
     paths[2].send_keys("Canada")
 
+    try:
+         driver.execute_script("document.getElementsByClassName('jobs-search-box__submit-button')[0].click();")
+    except ElementClickInterceptedException:
+        driver.execute_script("document.getElementsByClassName('msg-overlay-bubble-header')[0].click();")
+        time.sleep(1)
+        driver.execute_script("document.getElementsByClassName('jobs-search-box__submit-button')[0].click();")
+  
 
-    # jobs_search_btn = driver.find_element_by_class_name('jobs-search-box__submit-button')
 
-    # try:
-    #     jobs_search_btn.click()
-    # except ElementClickInterceptedException:
-    #     driver.find_element_by_class_name('msg-overlay-bubble-header').click()
-    #     time.sleep(1)
-    #     jobs_search_btn.click()
+    time.sleep(2)
+    driver.execute_script( "document.querySelector('.jobs-search-results').scrollTop = 1000")
+    time.sleep(2)
+    jobs = driver.find_elements_by_class_name('job-card-container')
 
-    # page_source = driver.page_source
+    # print(jobs[1].text)
 
-    # page_soup = soup(page_source, 'html.parser')
-    # # jobs = page_soup.findAll('div', {"class":"job-card-container"})
-    # jobs = driver.find_elements_by_class_name('job-card-container')
 
-    # element = driver.find_element_by_class_name("jobs-search-results") 
+    description = driver.find_elements_by_class_name('jobs-description-content__text')[0].text
+    print(description)
 
-    # driver.execute_script( " document.querySelector('.jobs-search-results').scrollTop = 800 ")
-
+    with open("description.txt", "w") as file:
+        file.write(str(description))
 
     # for job in jobs:
-    #     job.click()
+    #     driver.execute_script("arguments[0].click();",job)  
+    #     time.sleep(2)
+
+
+    # page_soup = soup(page_html, "html.parser")
+
+    # containers = page_soup.findAll("div",{"class": "item-cell"})
+
+    # brand = containers[0].div.div.a.img['title']
+    # title = containers[0].find("a",{"class":"item-title"}).text
+    # time.sleep(2)
+    
+    # jobs = driver.find_elements_by_class_name('job-card-container')
+    # print(len(jobs))
+    # for job in jobs:
+    #     driver.execute_script("arguments[0].click();",job)
+    
+    # jobs = driver.find_elements_by_class_name('job-card-container')
+    
 
     # with open("file.html", "w") as file:
     #     file.write(str(jobs))

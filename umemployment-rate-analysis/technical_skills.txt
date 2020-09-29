@@ -1,0 +1,114 @@
+object-oriented
+c/c++
+bash
+python
+perl
+computer science
+engineering
+api
+sql
+postgresql
+mysql
+etl
+ruby
+golang
+data processing
+data engineering
+docker
+kubernetes
+agile
+javascript
+react
+angular
+json
+rest
+html
+css
+http
+computer engineering
+co-op
+data structures
+algorithms
+operating system
+database
+java
+swift
+software engineering
+dom
+server
+ssl
+c#
+c++
+azure
+devops
+architect
+vue
+flask
+django
+tdd
+spring boot
+bs/ms
+nosql
+mongodb
+r,
+hadoop
+mapreduce
+spark
+.net
+ci/cd
+scrum
+microservice
+tableau
+alteryx
+power bi
+kanban
+graphql
+phd
+qa
+mvc
+asp.net
+asp
+hive
+aws
+redux
+typescript
+distributed systems
+linux
+php
+excel
+programming
+analytics
+data visualization
+gcp
+bigquery
+continuous delivery
+web application
+powershell
+ember
+neo4j
+android
+ios
+rust
+es6
+mobile development
+kafka
+kotlin
+e-commerce
+laravel
+node
+git
+jenkins
+machine learning
+nlp
+jupyter
+scala
+tensorflow
+matlab
+sklearn
+framework
+object oriented
+bootstrap
+redis
+cloud
+big data
+rest

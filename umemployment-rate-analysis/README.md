@@ -1,0 +1,1 @@
+For somereason using the normal "driver.find_elements_by_class_name" doesn't work so any alternative is to execute and embedded js script.

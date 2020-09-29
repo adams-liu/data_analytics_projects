@@ -1,0 +1,49 @@
+Since 1992, Ciena has been driven by a relentless pursuit of network innovation. We believe in a network that grows smarter, more agile, and more responsive every day. This means that when you digitally interact in your world - picking up the phone, streaming video, texting a friend or loved one – your interactions are being enabled by Ciena technologies. Ciena makes your social / entertainment / business existence REAL.
+
+What will you do at Ciena?
+
+The Waveserver product development team’s mission is to develop data center interconnect optical transport products and solutions for Web 2.0 and Enterprise customers. This is a fast-growing market for Ciena and Waveserver is instrumental in attracting new customers to our portfolio. The design of the product must not only provide a wealth of services but at the same time must be simple to use and manage. Our team is looking for an energetic software designer that is eager to participate in the design and development of management and control software solutions.
+
+Responsibilities
+Developing real time embedded C/C++ software for the new Waveserver Data Center transport product, which may include enhancing existing software, creating new features, and supporting new hardware introduction for rapid time to market following an Agile development process.
+Participating in all stages of software development - requirements analysis, design and prototyping, implementation, testing, and eventually maintenance support.
+Troubleshooting hardware and software integration as well as performance issues. Work with hardware, software, verification and system engineering teams to identify root causes for issues.
+Field support, helping investigate and collect information to resolve performance or design issues found in current or previous designs.
+Required Skills
+Software development expertise, particularly large-scale embedded software development in C/C++ and Object-oriented design
+Familiarity with developing software on multi-processor, concurrent systems (good knowledge of mutual exclusion, synchronization, inter-process communication, scheduling, resource management, etc.)
+Strong problem-solving skills with the ability to troubleshoot and perform fault isolation and usage of source code debug tools and analyzers
+Familiarity with Embedded Linux and experience scripting languages such as XQuery, TCL, Expect, Python, Bash, Perl, etc.
+Experience identifying issues and quality improvements through test driven development, automated unit testing, code analysis and comprehensive integration testing.
+Strong written and verbal communications skills to present ideas and coordinate troubleshooting.
+Strong organization skills to manage time, resources and priorities.
+Ability to work in a lab environment and integrate software onto custom hardware.
+Independent self-starter and committed to delivering on aggressive deadlines but also comfortable working in a team environment.
+Collaboration with stakeholders
+Product and system architects – to understand requirements and desired behaviours
+Design team members – to review design and make decisions on options and improvements.
+Integration team – to share designer test results, review test plans and address issues found in integration testing
+Verification team - to review test plans and address issues found in verification testing
+Areas of impact
+Opportunities exist within the team to work on SW at various levels in the system from the user interfaces down to the device drivers.
+Experience
+Bachelor’s degree in Engineering, Computer Science or equivalent
+1+ years related experience (see Required Skills section)
+About Ciena
+
+Ciena is a network strategy and technology company with a passion to provide an experience, to you and our customers that is as rewarding as the outcome. We attract the best and brightest– those with outstanding talent, motivation, and the right attitude to contribute to our success. Our culture balances our openness and informality with professionalism and trust and is built on the foundation of our core values: Customer First, Integrity, Velocity, Innovation, and Outstanding People.
+
+Ciena enables everyone to have a voice and a network that supports them while on the journey to discovering their passion and purpose. We trust each individual to do what they can to reach their full potential and make an impact on the business, whenever, wherever they are in the world. With Ciena’s highly innovative, forward-thinking business practices, we reward people for pushing the boundaries. Unlock your potential at Ciena!
+
+Being You @ Ciena
+As part of our commitment to diversity and inclusion, we want to foster an environment that values and respects all individual’s strengths, perspectives, ideas, and ability to meet the needs of our customers globally. Ciena values the diversity of its workforce and respects its employees as individuals, regardless of race, ethnicity, religion, gender, age, national origin, disability, sexual orientation, veteran or marital status or any other category protected by applicable law. We do not tolerate any form of discrimination.
+
+Ciena is also committed to compliance with all fair employment practices regarding citizenship and immigration status.
+
+If contacted in relation to a job opportunity, you should advise Ciena in a timely fashion of the specific accommodation measures required for you to be assessed in a fair and equitable manner.
+Industry
+Computer Networking Electrical & Electronic Manufacturing Telecommunications
+Employment Type
+Full-time
+Job Functions
+Engineering Information Technology
