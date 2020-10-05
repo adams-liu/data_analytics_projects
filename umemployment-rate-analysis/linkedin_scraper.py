@@ -10,6 +10,7 @@ from selenium.webdriver.support.select import Select
 # import Action chains  
 from selenium.webdriver.common.action_chains import ActionChains 
 from selenium.webdriver.common.by import By
+import text_parser as tp 
 
 
 def getLogin():
@@ -66,11 +67,26 @@ if __name__ == "__main__":
     # print(jobs[1].text)
 
 
-    description = driver.find_elements_by_class_name('jobs-description-content__text')[0].text
-    print(description)
+    description = driver.find_elements_by_class_name('jobs-description-content__text')[0].text.lower()
+    industry = driver.find_elements_by_class_name('jobs-description-details__list-item')
+    seniority = driver.find_elements_by_class_name('jobs-description-details')[0].text
+    industry_text = []
+    for i in industry:
+        industry_text.append(i.text)
+    print(industry_text[0:3])
+    level = 'Associate'
+    seniority = seniority.splitlines()
+    for i in range(len(seniority)):
+        if i == "Seniority Level":
+            level = seniority[i+1]
 
-    with open("description.txt", "w") as file:
-        file.write(str(description))
+    print((industry_text,level))
+
+    # technical_skills_ls = tp.getSkillsList()
+    # years, skills = tp.printKeywords(description,technical_skills_ls)
+
+    # with open("description.txt", "w") as file:
+    #     file.write(str(description))
 
     # for job in jobs:
     #     driver.execute_script("arguments[0].click();",job)  

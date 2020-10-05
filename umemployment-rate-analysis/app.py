@@ -8,7 +8,7 @@ page_html = uClient.read()
 uClient.close()
 page_soup = soup(page_html, "html.parser")
 
-#grabs each product
+
 containers = page_soup.findAll("div",{"class": "item-cell"})
 
 brand = containers[0].div.div.a.img['title']
