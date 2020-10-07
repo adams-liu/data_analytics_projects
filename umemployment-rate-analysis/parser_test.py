@@ -24,17 +24,17 @@ def printKeywords(description,technical_skills_ls):
     for sentence in description:
         if any(word in sentence for word in word_list):
             temp_list.append(sentence)
+            
             if 'year' in sentence:
                 year_sentences.append(sentence)
                 
     years = []
     for sentence in year_sentences:
-        for s in re.findall(r'\d+\.*\d*', sentence):
+        for s in re.findall(r'-?\d+\.?\d*', sentence):
             years.append(int(s))
 
 
     temp_set = set()
-
 
     for skill in technical_skills_ls:
         for sentence in temp_list:
